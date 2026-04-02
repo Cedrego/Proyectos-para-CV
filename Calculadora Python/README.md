@@ -16,6 +16,7 @@ Planes a futuro:
 - UI de color ajustable en menu desplegable de configuracion.
 - Registro local de hasta 10 cuentas previas con la posibilidad de cargar las funciones utilizadas o el resultado de las mismas.
 
-Para ejecutar la Calculadora nos dirijimos al proyecto "Calculadora Python" en la terminal y ejecutamos el archivo main, deberia quedar asi "\Proyectos-para-CV\Calculadora Python> python main.py"
+Para ejecutar la Calculadora nos dirijimos al proyecto "Calculadora Python" en la terminal y ejecutamos el archivo main, deberia quedar asi " cd ruta a la carpeta/Calculadora Python"
+ y ejecutar "python main.py"
 
 Documentacion: https://docs.google.com/document/d/1JitJEPS17Vhmt3bzuhTn6NA9R3x-vzu4jv5RIiLpwAQ/edit?usp=sharing
