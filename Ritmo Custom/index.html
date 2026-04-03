@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Vincular el archivo CSS -->
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body> 
+    <div class="container">
+
+        <!-- Título -->
+        <h2>Visualizador de Música</h2>
+
+        <!-- Selector de archivo -->
+        <input type="file" accept=".mp3" id="fileInput">
+
+        <!-- Controles de reproducción -->
+        <div class="controls">
+            <button id="playButton">▶ Play</button>
+            <button id="pauseButton">⏸ Pausa</button>
+            <button id="stopButton">⏹ Stop</button>
+
+            <div class="volume">
+                <label for="volumeSlider">🔊</label>
+                <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+            </div>
+
+            <div class="color-controls">
+                <label for="colorPicker">Color:</label>
+                <input type="color" id="colorPicker" value="#7f77dd">
+
+                <label for="colorMode">Modo:</label>
+                <select id="colorMode">
+                    <option value="solid">Sólido</option>
+                    <option value="multicolor">Multicolor</option>
+                    <option value="intensidad">Por intensidad</option>
+                </select>
+
+                <label for="estiloSelector">Estilo:</label>
+                <select id="estiloSelector">
+                    <option value="circulo">Círculo</option>
+                    <option value="barras">Barras</option>
+                    <option value="ola">Ola</option>
+                    <option value="particulas">Particulas</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Canvas del visualizador -->
+        <canvas id="canvas"></canvas>
+
+        <!-- Audio oculto -->
+        <audio id="audioPlayer"></audio>
+
+    </div>
+    <!-- siempre al final del body -->
+    <script src="Estilos/circulo.js"></script>
+    <script src="Estilos/barras.js"></script>
+    <script src="Estilos/ola.js"></script>
+    <script src="Estilos/particulas.js"></script>
+    <script src="main.js"></script>  
+</body>
+</html>
