@@ -1,3 +1,5 @@
+Hecho por Thiago Cedrés y Enzo Brun
+
 Lenguajes: HTML,CSS y JavaScript
 Modo de ejecuccion: Urilizamos "Live Servver"(Extension en Visual)
 
