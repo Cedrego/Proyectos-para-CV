@@ -25,7 +25,7 @@ const estiloSelector = document.getElementById('estiloSelector');
     let analyser = null;
     let source = null;
     let dataArray = null;
-    let sourceCreated = false;
+    //let sourceCreated = false;
     // Botones deshabilitados hasta que haya canción
     playButton.disabled = true;
     pauseButton.disabled = true;

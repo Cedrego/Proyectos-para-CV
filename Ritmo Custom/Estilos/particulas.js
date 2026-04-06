@@ -1,5 +1,4 @@
 // Estilos/particulas.js
-
 // Las partículas se crean una sola vez y se reusan
 let particles = null;
 
